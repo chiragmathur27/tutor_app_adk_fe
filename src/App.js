@@ -60,6 +60,7 @@ function App() {
 
       const response = await fetch('https://tutor-app-adk.onrender.com/chat', {
         method: 'POST',
+        mode:"cors",
        headers: { 
           'Content-Type': 'application/json',
           'Accept': 'application/json'
